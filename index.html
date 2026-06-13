@@ -15,6 +15,7 @@
     />
     <meta property="og:type" content="website" />
     <title>XCASE Protection — Custom flight cases and CNC foam inserts</title>
+    <link rel="icon" href="assets/img/logo-dark.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -69,23 +70,34 @@
         </div>
       </section>
 
-      <section class="section system-section" id="system" aria-labelledby="system-title">
-        <div class="section-intro">
-          <p class="section-label">Protection system</p>
-          <h2 id="system-title">One calibrated unit, not separate parts.</h2>
-          <p>
-            Case, foam, hardware and cargo geometry are designed together so the equipment stays
-            fixed, accessible and protected through repeated transport.
-          </p>
-        </div>
-        <div class="exploded-layout">
-          <img src="assets/img/hero-case.jpg" alt="Open XCASE flight case with fitted foam" />
-          <ul class="layer-list" aria-label="Protection layers">
-            <li><span>01</span> Birch ply shell</li>
-            <li><span>02</span> Aluminum edge extrusions</li>
-            <li><span>03</span> Stainless hardware</li>
-            <li><span>04</span> CNC-routed PE foam</li>
-            <li><span>05</span> Cargo-specific cavities</li>
+      <section class="motion-section" id="system" aria-labelledby="system-title" data-motion-section>
+        <div class="motion-pin">
+          <video
+            class="motion-video"
+            src="assets/bg.mp4"
+            poster="assets/img/hero-case.jpg"
+            autoplay
+            loop
+            muted
+            playsinline
+            preload="auto"
+            data-motion-video
+          ></video>
+          <div class="motion-wash" aria-hidden="true"></div>
+          <div class="motion-copy">
+            <p class="section-label">Scroll · the case opens</p>
+            <h2 id="system-title">One calibrated unit.</h2>
+            <p>Case, foam and hardware engineered together around your cargo geometry.</p>
+            <div class="motion-progress" aria-hidden="true">
+              <span data-motion-progress></span>
+            </div>
+          </div>
+          <ul class="motion-callouts" aria-label="Protection layers">
+            <li data-callout="0"><span>01</span> Lid foam</li>
+            <li data-callout="1"><span>02</span> Cargo</li>
+            <li data-callout="2"><span>03</span> CNC insert</li>
+            <li data-callout="3"><span>04</span> Shell</li>
+            <li data-callout="4"><span>05</span> Hardware</li>
           </ul>
         </div>
       </section>
